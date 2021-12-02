@@ -4,12 +4,18 @@
 // let text = document.getElementById('p')
 // text.innerText = 'This is really cool!'
 
-  document.addEventListener("DOMContentLoaded", (event) => {
-    console.log("The DOM has loaded");
-  });
 
-  let text = document.getElementById('p')
-  text.innerText = 'This is really cool!'
+  let text = document.getElementById('text');
+  document.addEventListener("DOMContentLoaded", (event) => {
+  text.textContent = `This is really cool!`
+  })
+
+  // below is Elani's code
+  // const textToChange = document.getElementById('text');
+  // document.addEventListener('DOMContentLoaded', function () {
+  //     textToChange.textContent = 'This is really cool!';
+  // })
+
 
 
 // document.addEventListener("DOMContentLoaded", function(e) { console.log("The DOM has loaded") } );
